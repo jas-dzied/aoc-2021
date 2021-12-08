@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+import sys
+import os
+file = sys.argv[1]
+os.system(f'gcc {file}.cpp -lstdc++ -o {file}')
+os.system(f'./{file}')
